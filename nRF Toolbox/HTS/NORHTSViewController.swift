@@ -4,7 +4,7 @@
 //
 //  Created by Mostafa Berg on 09/05/16.
 //  Copyright © 2016 Nordic Semiconductor. All rights reserved.
-//
+////  Edited by Anastasios Panagoulias on 11/01/07
 
 import UIKit
 import CoreBluetooth

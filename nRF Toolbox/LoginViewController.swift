@@ -12,13 +12,12 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var userEmailTextField: UITextField!
     @IBOutlet weak var userPasswordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
-        
         
         let flexibleSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
         
@@ -42,8 +41,6 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func loginButtonTapped(_ sender: Any) {
-        
-        
         
         let userEmail = userEmailTextField.text
         //print (userEmail!)
@@ -84,8 +81,6 @@ class LoginViewController: UIViewController {
     
     func displayMyAlertMessage(userMessage: String)
     {
-        
-        
         let myAlert = UIAlertController(title: "Alert", message: userMessage, preferredStyle: UIAlertControllerStyle.alert);
         
         let okAction = UIAlertAction(title:"Ok", style:UIAlertActionStyle.default, handler:nil)
