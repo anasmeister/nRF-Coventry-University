@@ -9,6 +9,8 @@ It contains applications demonstrating Bluetooth Smart profiles:
 * **Blood Pressure Monitor**, 
 * **Health Thermometer Monitor**, 
 
+Installation Steps:
+
 In order to make the application run on an iPhone or iPad, please download the whole project from here, and open the CUmApp.xcodeproj file through the latest xCode. After the application launches, please allow a few minutes for the application to built, and the connect the desired device on the Mac Computer. In order to port the application through xCode the user should have a Developers Account. When the testing device is connected, then click the run button, with destination the device you want to test the application on. 
 
 If no Apple Developers Account is existing, then just run the application with a Simulator of iPhone 6, or iPhone 6s.
